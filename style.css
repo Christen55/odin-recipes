@@ -1,0 +1,134 @@
+
+h1
+{
+    color:green;
+    font-family: "Boncegro FF 4F";
+    font-size: 300%;
+    text-align: center;
+}
+
+p{
+    font-family: "Veles-Regular.0.9.2";
+}
+sectionName{
+            
+            
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+sectioncontacts{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+section{
+    display: flex;
+    align-items: center;
+}
+sectionMenu{
+            
+            
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+body
+{
+    font-family: "Veles-Regular.0.9.2";
+    line-height: 180%;
+        background-image: url(https://img1.liveinternet.ru/images/attach/c/4/122/980/122980549_.JPG);
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+.article {
+    display: flex;
+    height: 25em;
+    justify-content: space-between;
+  }
+ 
+  .dropdawn{
+      position:unset;
+      display:list-item;
+
+  }
+.dropdawn-content{
+    display: none;
+    position:static;
+   
+
+}
+.dropdawn:hover .dropdawn-content{
+    display:block;
+    
+}
+  .overflow {
+    width: 31%;
+    overflow: auto;
+    margin-left: 0px;
+    padding: 10px;
+    border: 3px solid #230fd3;
+    border-radius: 1%;
+    box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+    background-color: white;
+  }
+  
+  .panelOfTools
+  {
+      padding-top: 15px;
+      text-align: center;
+    
+  }
+  
+  .el{
+      color: rgba(0,0,0,0);
+  }
+  .contacts{
+      background-color: #CCCCCC;
+      min-height:max-content;
+  }
+  .image{
+      display:inline-block;
+      
+  
+border-radius: 40px;
+border-style:outset ;
+border-color:darkturquoise;
+
+  }
+  
+.image:hover {
+  
+   
+    border-radius: 40px;
+    border-style:dotted;
+    border-color:darkviolet;  
+    margin-bottom: 10px;
+    display:block;
+}
+.frame{
+border-radius: 40px;
+}
+.position{
+    margin-top: 10px;
+}
+@font-face {
+
+    font-family: "Veles-Regular.0.9.2";
+    src: url("./fonts/Veles-Regular.0.9.2.otf") format("truetype");
+    font-style: normal;
+
+}
+
+@font-face {
+
+    font-family: "Boncegro FF 4F";
+    src: url("./fonts/Boncegro FF 4F.otf") format("truetype");
+    font-style: normal;
+}
+
+@media screen and (min-width: 601px) { h2 {font-size: 110px;}}
+@media screen and (max-width: 600px) { h2 {font-size: 40px;}}
