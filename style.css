@@ -156,7 +156,7 @@ border-radius: 40px;
 @media screen and (max-width: 700px) { 
     .article{
         flex-direction: column;
-        height: 150vh;
+        height: 75em;
         align-items: center;
     }
 
@@ -170,4 +170,22 @@ border-radius: 40px;
         align-items: center;
     }
 }
+@media screen and (max-width: 400px) { 
+    .article{
+        flex-direction: column;
+        height: 50em;
+        align-items: center;
+    }
+
+    .overflow{
+        width: 75%;
+        flex: 1;
+
+    }
+    sectionMenu{   
+        flex-direction: column;
+        align-items: center;
+        
+        
+    }
 
