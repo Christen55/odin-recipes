@@ -107,6 +107,8 @@ border-color:darkturquoise;
 }
 
 .ellipse{
+    width:100%; 
+    height: 320px;
     border-radius: 290px/160px;
     border-style:double;
     border-color:rgb(158, 9, 218);
@@ -185,7 +187,16 @@ border-radius: 40px;
     sectionMenu{   
         flex-direction: column;
         align-items: center;
+    }
         
-        
+        .ellipse{
+        width:100%; 
+        height:150px;
+        }
+    
+.window{
+        width:75%;
+        height:50%;
+    }
     }
 
