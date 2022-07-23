@@ -128,12 +128,12 @@ border-radius: 40px;
 @media screen and (max-width: 1600px) { 
     .article{
         flex-direction: column;
-        height: 90em;
+        height: 75em;
         align-items: center;
     }
 
     .overflow{
-        width: 50%;
+        width: 75%;
         flex: 1;
 
     }
