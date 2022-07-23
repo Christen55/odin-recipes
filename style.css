@@ -46,7 +46,7 @@ body
 }
 .article {
     display: flex;
-    height: 25em;
+    height: 25rem;
     justify-content: space-between;
   }
  
