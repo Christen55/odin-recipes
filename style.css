@@ -67,7 +67,7 @@ body
 }
   .overflow {
     width: 31%;
-      height: auto;
+      height: 30%;
     overflow: auto;
     margin-left: 0px;
     padding: 10px;
