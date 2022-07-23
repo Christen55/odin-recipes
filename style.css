@@ -67,7 +67,6 @@ body
 }
   .overflow {
     width: 31%;
-     
     overflow: auto;
     margin-left: 0px;
     padding: 10px;
@@ -92,9 +91,7 @@ body
       min-height:max-content;
   }
   .image{
-      display:inline-block;
-      
-  
+display:inline-block;
 border-radius: 40px;
 border-style:outset ;
 border-color:darkturquoise;
@@ -102,8 +99,6 @@ border-color:darkturquoise;
   }
   
 .image:hover {
-  
-   
     border-radius: 40px;
     border-style:dotted;
     border-color:darkviolet;  
@@ -130,9 +125,17 @@ border-radius: 40px;
     src: url("./fonts/Boncegro FF 4F.otf") format("truetype");
     font-style: normal;
 }
-@media screen and (max-width: 150px) { 
+@media screen and (max-width: 600px) { 
     .article{
         flex-direction: column;
+        height: 90em;
+        align-items: center;
+    }
+
+    .overflow{
+        width: 50%;
+        flex: 1;
+
     }
 }
 
