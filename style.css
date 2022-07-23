@@ -116,7 +116,7 @@ border-color:darkturquoise;
 }
 .window{
     width:50%;
-    height:20%;
+    height:min-content;
     text-align: center;
     border-style:solid;
     border-color:rgb(38, 51, 230);
@@ -196,7 +196,7 @@ border-radius: 40px;
     
 .window{
         width:75%;
-        height:40%;
+        height:min-content;
     }
     h1{
         font-size: 250%;
