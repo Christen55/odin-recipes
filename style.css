@@ -105,6 +105,34 @@ border-color:darkturquoise;
     margin-bottom: 10px;
     display:block;
 }
+
+.ellipse{
+    border-radius: 290px/160px;
+    border-style:double;
+    border-color:rgb(158, 9, 218);
+    display:inline-block;
+}
+.window{
+    width:50%;
+    height:20%;
+    text-align: center;
+    border-style:solid;
+    border-color:rgb(38, 51, 230);
+    border-radius: 10px;
+    background: white;
+    display: none;
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:0;
+    left: 0;
+    margin: auto;
+   
+}
+a:hover .window{
+    display: block;
+    
+}
 .frame{
 border-radius: 40px;
 }
