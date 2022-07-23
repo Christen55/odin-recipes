@@ -156,7 +156,7 @@ border-radius: 40px;
 @media screen and (max-width: 700px) { 
     .article{
         flex-direction: column;
-        height: 75em;
+        height: 150vh;
         align-items: center;
     }
 
