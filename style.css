@@ -155,7 +155,7 @@ border-radius: 40px;
     src: url("./fonts/Boncegro FF 4F.otf") format("truetype");
     font-style: normal;
 }
-@media screen and (max-width: 600px) { 
+@media screen and (max-width: 800px) { 
     .article{
         flex-direction: column;
         height: 75em;
@@ -196,7 +196,11 @@ border-radius: 40px;
     
 .window{
         width:75%;
-        height:50%;
+        height:35%;
     }
+    h1{
+        font-size: 250%;
     }
+    
+   }
 
