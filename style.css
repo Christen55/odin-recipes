@@ -91,6 +91,8 @@ body
       min-height:max-content;
   }
   .image{
+      width:70px;
+      height:70px;
 display:inline-block;
 border-radius: 40px;
 border-style:outset ;
@@ -185,20 +187,15 @@ border-radius: 40px;
     .overflow{
         width: 80%;
         flex: 1;
-
-    }
-    sectionMenu{   
-        flex-direction: column;
-        align-items: center;
-    }
-        
+        }
+    
         .ellipse{
         height:170px;
         }
     
-.window{
+       .window{
         width:75%;
-    }
+         }
     h1{
         font-size: 200%;
     }
