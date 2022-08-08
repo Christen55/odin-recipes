@@ -1,204 +1,192 @@
+body{
+    font-family: "Veles-Regular.0.9.2";
+    line-height: 180%;
+    background-image: url(https://img1.liveinternet.ru/images/attach/c/4/122/980/122980549_.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    .header{      
+        display:flex;
+        align-items: center;
+        justify-content:center;
+    }
+        h1{
+            color:green;
+            font-family: "Boncegro FF 4F";
+            font-size: 300%;
+            text-align: center;
+        }
+        
+        .image{
+            height:70px;
+            width: 70px;
+            display:inline-block; 
+            border-radius: 40px;
+            border-style:outset ;
+            border-color:darkturquoise;
+        }
+        
+        .image:hover{
+            border-radius: 40px;
+            border-style:dotted;
+            border-color:darkviolet;  
+            margin-bottom: 10px;
+            display:block;
+        }
 
-h1
+    sectionMenu{   
+        display:flex;
+        align-items: center;
+        justify-content: space-around;    
+    }
+        .menu{
+            width: 400px;
+            height: 400px;
+        }
+            .dropdawn{
+                position:unset;
+                display:list-item;
+            }
+
+            .dropdawn-content{
+                display: none;
+                position:static;
+            }
+
+            .dropdawn:hover .dropdawn-content{
+                display:block;
+            }
+
+    a:hover .window{
+        display: block;
+    }
+        .window{
+            width:50%;
+            height:min-content;
+            text-align: center;
+            border-style:solid;
+            border-color:rgb(38, 51, 230);
+            border-radius: 10px;
+            background: white;
+            display: none;
+            position: absolute;
+            top:0;
+            bottom:0;
+            right:0;
+            left: 0;
+            margin: auto;
+        }
+
+        .ellipse{
+            width:100%; 
+            height:320px;
+            border-radius: 290px/160px;
+            border-style:double;
+            border-color:rgb(158, 9, 218);
+            display:inline-block;
+        }
+
+
+.article {
+    display: flex;
+    height:55vh;
+    justify-content: space-between;
+}
+    .overflow {
+        width: 31%;
+        overflow: auto;
+        margin-left: 0px;
+        padding: 10px;
+        border: 3px solid #230fd3;
+        border-radius: 1%;
+        box-shadow: 1px 1px 10px rgba(0,0,0,.5);
+        background-color: white;
+    }
+        p{
+            font-family: "Veles-Regular.0.9.2";
+        }
+
+.panelOfTools
 {
-    color:green;
-    font-family: "Boncegro FF 4F";
-    font-size: 300%;
+    padding-top: 15px;
     text-align: center;
 }
+    .invisible{
+        color: rgba(0,0,0,0);
+    }
 
-p{
-    font-family: "Veles-Regular.0.9.2";
+.footer{
+    background-color: #CCCCCC;
+    min-height:max-content;
 }
-sectionName{
-            
-            
-    display:flex;
-    align-items: center;
-    justify-content:center;
-    
-}
-sectioncontacts{
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-}
+    sectioncontacts{
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+    }
+
 section{
     display: flex;
     align-items: center;
 }
-sectionMenu{
-            
-            
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
-    
-}
+    .frame{
+        border-radius: 40px;
+    }
 
-body
-{
-    font-family: "Veles-Regular.0.9.2";
-    line-height: 180%;
-        background-image: url(https://img1.liveinternet.ru/images/attach/c/4/122/980/122980549_.JPG);
-        background-repeat: no-repeat;
-        background-size: cover;
-}
-.article {
-    display: flex;
-    height: 55vh;
-    justify-content: space-between;
-  }
- 
-  .dropdawn{
-      position:unset;
-      display:list-item;
-
-  }
-.dropdawn-content{
-    display: none;
-    position:static;
-   
-
-}
-.dropdawn:hover .dropdawn-content{
-    display:block;
-    
-}
-  .overflow {
-    width: 31%;
-    overflow: auto;
-    margin-left: 0px;
-    padding: 10px;
-    border: 3px solid #230fd3;
-    border-radius: 1%;
-    box-shadow: 1px 1px 10px rgba(0,0,0,.5);
-    background-color: white;
-  }
-  
-  .panelOfTools
-  {
-      padding-top: 15px;
-      text-align: center;
-    
-  }
-  
-  .el{
-      color: rgba(0,0,0,0);
-  }
-  .contacts{
-      background-color: #CCCCCC;
-      min-height:max-content;
-  }
-  .image{
-      width:70px;
-      height:70px;
-display:inline-block;
-border-radius: 40px;
-border-style:outset ;
-border-color:darkturquoise;
-
-  }
-  
-.image:hover {
-    border-radius: 40px;
-    border-style:dotted;
-    border-color:darkviolet;  
-    margin-bottom: 10px;
-    display:block;
-}
-
-.ellipse{
-    width:100%; 
-    height: 320px;
-    border-radius: 290px/160px;
-    border-style:double;
-    border-color:rgb(158, 9, 218);
-    display:inline-block;
-}
-.window{
-    width:50%;
-    height:min-content;
-    text-align: center;
-    border-style:solid;
-    border-color:rgb(38, 51, 230);
-    border-radius: 10px;
-    background: white;
-    display: none;
-    position: absolute;
-    top:0;
-    bottom:0;
-    right:0;
-    left: 0;
-    margin: auto;
-   
-}
-a:hover .window{
-    display: block;
-    
-}
-.frame{
-border-radius: 40px;
-}
 .position{
     margin-top: 10px;
 }
-@font-face {
 
+@font-face{
     font-family: "Veles-Regular.0.9.2";
-    src: url("./Veles-Regular.0.9.2.otf") format("truetype");
+    src: url("./fonts/Veles-Regular.0.9.2.otf") format("truetype");
     font-style: normal;
-
 }
 
-@font-face {
-
+@font-face{
     font-family: "Boncegro FF 4F";
-    src: url("./Boncegro FF 4F.otf") format("truetype");
+    src: url("./fonts/Boncegro FF 4F.otf") format("truetype");
     font-style: normal;
 }
-@media screen and (max-width: 800px) { 
+
+@media screen and (max-width: 800px){ 
+    h1{
+        font-size: 250%;
+    }
+    sectionMenu{   
+        flex-direction: column;
+        align-items: center;  
+    }
+    .overflow{
+        width: 75%;
+        flex: 1;
+    }
     .article{
         flex-direction: column;
         height: 75em;
         align-items: center;
-    }
-
-    .overflow{
-        width: 75%;
-        flex: 1;
-
-    }
-    sectionMenu{   
-        flex-direction: column;
-        align-items: center;
-    }
-     h1{
-        font-size: 250%;
-    }
+    } 
 }
-@media screen and (max-width: 400px) { 
+
+@media screen and (max-width: 400px){ 
+    h1{
+        font-size: 200%;
+    }
+    .window{
+        width:75%;
+        height:min-content;
+    }
+    .ellipse{
+        width:100%; 
+        height:150px;
+    }
+    .overflow{
+        width: 80%;
+        flex: 1;
+    }
     .article{
         flex-direction: column;
         height: 50em;
         align-items: center;
-    }
-
-    .overflow{
-        width: 80%;
-        flex: 1;
-        }
-    
-        .ellipse{
-        height:170px;
-        }
-    
-       .window{
-        width:75%;
-         }
-    h1{
-        font-size: 200%;
-    }
-    
-   }
-
+    } 
+}
