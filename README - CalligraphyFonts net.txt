@@ -5,7 +5,6 @@ If there is a problem, question, or anything about my fonts, please sent an emai
 hi@calligraphyfonts.net
 
 
-
 Here's How to Enable OpenType Features in Word, Photoshop and Illustrator
 
 
